@@ -1,4 +1,4 @@
-package cordova-plugin-mathcalculator;
+package cordova.plugin.mathcalculator;
 
 import org.apache.cordova.CordovaPlugin;
 import org.apache.cordova.CallbackContext;
@@ -43,7 +43,7 @@ public class MathCalculator extends CordovaPlugin {
             }
 
         }else{
-            callback.error('Por favor no pasar valores nulos');
+            callback.error("Por favor no pasar valores nulos");
         }
     }
 
@@ -62,7 +62,7 @@ public class MathCalculator extends CordovaPlugin {
             }
 
         }else{
-            callback.error('Por favor no pasar valores nulos');
+            callback.error("Por favor no pasar valores nulos");
         }
     }
 }
